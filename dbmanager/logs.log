@@ -1,0 +1,904 @@
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-24T18:06:13.565Z'
+}
+{
+  level: 'info',
+  message: { File_Name: 'test4' },
+  service: 'user-service',
+  timestamp: '2021-11-24T18:06:17.243Z'
+}
+{
+  level: 'error',
+  message: Error: Access denied for user 'root'@'localhost' (using password: YES)
+      at Packet.asError (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at ClientHandshake.execute (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (node:events:329:20)
+      at addChunk (node:internal/streams/readable:304:12)
+      at readableAddChunk (node:internal/streams/readable:279:9)
+      at Socket.Readable.push (node:internal/streams/readable:218:10) {
+    code: 'ER_ACCESS_DENIED_ERROR',
+    errno: 1045,
+    sqlState: '28000',
+    sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+    sql: undefined
+  },
+  service: 'user-service',
+  timestamp: '2021-11-24T18:14:50.939Z'
+}
+{
+  level: 'error',
+  message: Error: Access denied for user 'root'@'localhost' (using password: YES)
+      at Packet.asError (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at ClientHandshake.execute (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\DELL\Desktop\Advanced draft\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (node:events:329:20)
+      at addChunk (node:internal/streams/readable:304:12)
+      at readableAddChunk (node:internal/streams/readable:279:9)
+      at Socket.Readable.push (node:internal/streams/readable:218:10) {
+    code: 'ER_ACCESS_DENIED_ERROR',
+    errno: 1045,
+    sqlState: '28000',
+    sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+    sql: undefined
+  },
+  service: 'user-service',
+  timestamp: '2021-11-24T18:14:50.952Z'
+}
+{
+  level: 'error',
+  message: "Access denied for user 'root'@'localhost' (using password: YES)",
+  service: 'user-service',
+  timestamp: '2021-11-24T18:14:50.953Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T09:11:38.243Z'
+}
+{
+  level: 'info',
+  message: 'get files from db',
+  service: 'user-service',
+  timestamp: '2021-11-26T09:12:35.681Z'
+}
+{
+  level: 'info',
+  message: 'get files from db',
+  service: 'user-service',
+  timestamp: '2021-11-26T09:12:35.937Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T09:12:36.001Z'
+}
+{
+  message: 'text warn',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2021-11-23T15:59:59.497Z'
+}
+{
+  message: 'text error',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2021-11-23T15:59:59.525Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T12:25:25.216Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T12:40:39.523Z'
+}
+{
+  level: 'info',
+  message: 'get user from db',
+  service: 'user-service',
+  timestamp: '2021-11-26T12:42:38.562Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T12:42:38.609Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T12:45:45.233Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: compare is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:34:29),
+  service: 'user-service',
+  timestamp: '2021-11-26T12:45:45.234Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T12:45:58.050Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: compare is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:34:29),
+  service: 'user-service',
+  timestamp: '2021-11-26T12:45:58.051Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T12:52:21.933Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T12:52:27.862Z'
+}
+{
+  level: 'error',
+  message: Error: Illegal arguments: string, undefined
+      at _async (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+      at C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:307:17
+      at new Promise (<anonymous>)
+      at Object.bcrypt.compare (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:34:42),
+  service: 'user-service',
+  timestamp: '2021-11-26T12:52:27.863Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T13:37:24.185Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:37:29.607Z'
+}
+{
+  level: 'error',
+  message: Error: Illegal arguments: string, undefined
+      at _async (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+      at C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:307:17
+      at new Promise (<anonymous>)
+      at Object.bcrypt.compare (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:34:42),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:37:29.608Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:37:32.757Z'
+}
+{
+  level: 'error',
+  message: Error: Illegal arguments: string, undefined
+      at _async (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+      at C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:307:17
+      at new Promise (<anonymous>)
+      at Object.bcrypt.compare (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:34:42),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:37:32.757Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T13:38:38.644Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:38:44.480Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: dbName is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:37:26),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:38:44.480Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:39:15.201Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: dbName is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:37:26),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:39:15.201Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T13:40:01.401Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:40:05.434Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: dbName is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:42:13),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:40:05.435Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:40:07.187Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: dbName is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:42:13),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:40:07.187Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T13:41:57.179Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: dbName is not defined
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:42:13),
+  service: 'user-service',
+  timestamp: '2021-11-26T13:41:57.179Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T13:47:45.915Z'
+}
+{
+  level: 'error',
+<<<<<<< HEAD
+  message: Error: Access denied for user 'root'@'localhost' (using password: YES)
+      at Packet.asError (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at ClientHandshake.execute (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+      at readableAddChunk (internal/streams/readable.js:284:9)
+      at Socket.Readable.push (internal/streams/readable.js:223:10) {
+    code: 'ER_ACCESS_DENIED_ERROR',
+    errno: 1045,
+    sqlState: '28000',
+    sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+    sql: undefined
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:30:29.658Z'
+}
+{
+  level: 'error',
+  message: "Access denied for user 'root'@'localhost' (using password: YES)",
+  service: 'user-service',
+  timestamp: '2021-11-26T14:30:29.661Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T14:30:48.567Z'
+}
+{
+  level: 'info',
+  message: 'delete',
+  service: 'user-service',
+  timestamp: '2021-11-26T14:35:33.978Z'
+}
+{
+  level: 'info',
+  message: 'delete',
+  service: 'user-service',
+  timestamp: '2021-11-26T14:35:45.227Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:42:58.261Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:42:58.261Z'
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T15:12:07.086Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:43:21.464Z'
+
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:12:11.094Z'
+
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:43:21.464Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:44:39.761Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:44:39.761Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:03.060Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:03.060Z'
+
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:12:11.094Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:12.334Z'
+
+  timestamp: '2021-11-26T15:14:21.358Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:14.140Z'
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:14:25.702Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:14.141Z'
+}
+{
+  level: 'info',
+  message: 'get files from db',
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:37.262Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T14:45:37.263Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:46:16.347Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'filename' of undefined
+      at C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\index.js:121:61
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:137:13)
+      at multerMiddleware (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\multer\lib\make-middleware.js:18:41)
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\node_modules\express\lib\router\index.js:335:12),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:46:16.347Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:46:24.366Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:46:24.366Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'pppp',
+    user_Email: 'shadabana16@gmail.com',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:47:28.079Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:47:28.080Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:47:46.018Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:47:46.019Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:50:42.954Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:50:42.954Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T14:51:10.638Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T14:51:10.638Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:08:05.644Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:08:05.646Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:08:20.907Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:08:20.907Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:08:38.305Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:08:38.306Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T15:16:03.552Z'
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:14:25.702Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:16:05.438Z'
+    user_password: 'ahm441',
+    user_Email: 'israa.amour22@gmail.com',
+    db_Name: 'db maneger'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:14:26.848Z'
+}
+{
+  level: 'error',
+  message: ReferenceError: row is not defined
+      at exports.login (C:\Users\IAmour\Desktop\fina\AdvancedSeE\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:16:05.439Z'
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:38:72)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:14:26.848Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+<<<<<<< HEAD
+  timestamp: '2021-11-26T15:20:44.994Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T15:23:35.769Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:25:18.656Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'filename' of undefined
+      at C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\index.js:121:61
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:137:13)
+      at multerMiddleware (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\multer\lib\make-middleware.js:18:41)
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\index.js:335:12),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:25:18.656Z'
+=======
+  timestamp: '2021-11-26T15:15:52.508Z'
+>>>>>>> 4c2af419e0a636d578caea799b47be382e75b20e
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T15:34:36.181Z'
+}
+{
+  level: 'info',
+  message: {
+    user_Email: 'shadabana16@gmail.com',
+    user_password: 'pppp',
+    db_Name: 'dbmanager'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-26T15:34:38.861Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'filename' of undefined
+      at C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\index.js:121:61
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:137:13)
+      at multerMiddleware (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\multer\lib\make-middleware.js:18:41)
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\IAmour\Desktop\PROJECT\AdvancedSeE\dbmanager\node_modules\express\lib\router\index.js:335:12),
+  service: 'user-service',
+  timestamp: '2021-11-26T15:34:38.862Z'
+}
+{
+  level: 'info',
+  message: 'get files from db',
+  service: 'user-service',
+  timestamp: '2021-11-26T15:53:00.801Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T15:53:00.803Z'
+}
+{
+  level: 'info',
+  message: 'get files from db',
+  service: 'user-service',
+  timestamp: '2021-11-26T16:08:34.921Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-26T16:08:34.923Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-29T18:59:56.238Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-29T19:22:42.738Z'
+}
+{
+  level: 'info',
+  message: 'get user from db',
+  service: 'user-service',
+  timestamp: '2021-11-29T19:24:05.402Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-29T19:24:05.406Z'
+}
+{
+  level: 'info',
+  message: {},
+  service: 'user-service',
+  timestamp: '2021-11-29T19:34:51.959Z'
+}
+{
+  level: 'error',
+  message: SyntaxError: Unexpected token } in JSON at position 123
+      at JSON.parse (<anonymous>)
+      at parse (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\body-parser\lib\types\json.js:89:19)
+      at C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\body-parser\lib\read.js:121:18
+      at invokeCallback (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\raw-body\index.js:224:16)
+      at done (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\raw-body\index.js:213:7)
+      at IncomingMessage.onEnd (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\raw-body\index.js:273:7)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\r\n' +
+      '       "user_password": "yyyyy44d",\r\n' +
+      '        "user_Email": "ghaidaashtayeh99@gmail.com",\r\n' +
+      '        "db_Name": "db",\r\n' +
+      '    }',
+    type: 'entity.parse.failed'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-29T19:34:51.964Z'
+}
+{
+  level: 'info',
+  message: {
+    user_password: 'yyyyy44d',
+    user_Email: 'ghaidaashtayeh99@gmail.com',
+    db_Name: 'db'
+  },
+  service: 'user-service',
+  timestamp: '2021-11-29T19:35:00.170Z'
+}
+{
+  level: 'error',
+  message: TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+      at C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\mysql2\lib\connection.js:628:17
+      at Array.forEach (<anonymous>)
+      at Connection.execute (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\mysql2\lib\connection.js:620:22)
+      at C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\mysql2\promise.js:120:11
+      at new Promise (<anonymous>)
+      at PromiseConnection.execute (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\node_modules\mysql2\promise.js:117:12)
+      at exports.login (C:\Users\DELL\Desktop\advanced\AdVncedProject\dbmanager\controllers\loginController.js:38:40)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  service: 'user-service',
+  timestamp: '2021-11-29T19:35:00.171Z'
+}
+{
+  level: 'error',
+  message: null,
+  service: 'user-service',
+  timestamp: '2021-11-29T19:38:56.790Z'
+}
